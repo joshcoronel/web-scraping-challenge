@@ -22,13 +22,14 @@ Requests/Splinter
 
 -   [ ] Create a Jupyter Notebook file called mission_to_mars.ipynb
 
--   [ ] Scrape from [NASA Mars News Site]
+-   [ ] Scrape from [NASA Mars News Site](https://mars.nasa.gov/news/)
 
     -   [ ] Scrape the lastest News Title and Paragraph Text
 
     -   [ ] Assign the text to variables for reference later
 
--   [ ] Scrape from [Jet Propulsion Laboratory]
+-   [ ] Scrape from [Jet Propulsion
+    Laboratory](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
 
     -   [ ] Use splinter to find the image url for the current Featured Mars
         Image
@@ -39,7 +40,7 @@ Requests/Splinter
 
         -   [ ] Save a complete url string for this image
 
--   [ ] Scrape from [Space Facts]
+-   [ ] Scrape from [Space Facts](https://space-facts.com/mars/)
 
     -   [ ] Use pandas to scrape the table containing facts about planets
         (diameter, mass, etc)
