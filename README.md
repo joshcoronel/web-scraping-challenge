@@ -5,7 +5,8 @@ Background
 ----------
 
 In this web scraping project, we will have a compile the latests news and data
-on Mars from the following sources: [NASA Mars News Site], [Jet Propulsion
+on Mars from the following sources: [NASA Mars News
+Site](https://mars.nasa.gov/news), [Jet Propulsion
 Laboratory](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars), [Space
 Facts](https://space-facts.com/mars/), and [USGS
 Astrogeology](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars).
