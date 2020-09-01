@@ -15,9 +15,9 @@ Astrogeology](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced
 
 The final html page looks like the following:
 
-![](images/Screen Shot 2020-09-01 at 8.39.42 AM.png)
+![Screenshot 1](images/html1.png)
 
-![](images/Screen Shot 2020-09-01 at 8.40.01 AM.png)
+![Screenshot 2](images/html2.png)
 
 Requirements
 ------------
