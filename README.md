@@ -21,45 +21,45 @@ Step 1 - Scraping
 Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas,
 Requests/Splinter
 
--   [ ] Create a Jupyter Notebook file called mission_to_mars.ipynb
+-   [x] Create a Jupyter Notebook file called mission_to_mars.ipynb
 
--   [ ] Scrape from [NASA Mars News Site](https://mars.nasa.gov/news/)
+-   [x] Scrape from [NASA Mars News Site](https://mars.nasa.gov/news/)
 
-    -   [ ] Scrape the lastest News Title and Paragraph Text
+    -   [x] Scrape the latest News Title and Paragraph Text
 
-    -   [ ] Assign the text to variables for reference later
+    -   [x] Assign the text to variables for reference later
 
--   [ ] Scrape from [Jet Propulsion
+-   [x] Scrape from [Jet Propulsion
     Laboratory](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
 
-    -   [ ] Use splinter to find the image url for the current Featured Mars
+    -   [x] Use splinter to find the image url for the current Featured Mars
         Image
 
-        -   [ ] Assign to variable called featured_image_url
+        -   [x] Assign to variable called featured_image_url
 
-        -   [ ] Find the image url to the full size .jpg image
+        -   [x] Find the image url to the full size .jpg image
 
-        -   [ ] Save a complete url string for this image
+        -   [x] Save a complete url string for this image
 
--   [ ] Scrape from [Space Facts](https://space-facts.com/mars/)
+-   [x] Scrape from [Space Facts](https://space-facts.com/mars/)
 
-    -   [ ] Use pandas to scrape the table containing facts about planets
+    -   [x] Use pandas to scrape the table containing facts about planets
         (diameter, mass, etc)
 
-    -   [ ] Use pandas to convert the data to a HTML table string
+    -   [x] Use pandas to convert the data to a HTML table string
 
--   [ ] Scrape from [USGS
+-   [x] Scrape from [USGS
     Astrogeology](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
 
-    -   [ ] Click the weblink to each hemisphere to find the image url to the
+    -   [x] Click the weblink to each hemisphere to find the image url to the
         full resolution image
 
-    -   [ ] Save the image url string and the hemisphere title
+    -   [x] Save the image url string and the hemisphere title
 
-        -   [ ] Use a python dictionary to store the data using the keys img_url
+        -   [x] Use a python dictionary to store the data using the keys img_url
             and title
 
-        -   [ ] Append the dictionary to a list. This list will contain one
+        -   [x] Append the dictionary to a list. This list will contain one
             dictionary for each hemisphere
 
 Step 2 - MongoDB and Flask Application
