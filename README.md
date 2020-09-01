@@ -13,6 +13,12 @@ Astrogeology](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced
 
  
 
+The final html page looks like the following:
+
+![](images/Screen Shot 2020-09-01 at 8.39.42 AM.png)
+
+![](images/Screen Shot 2020-09-01 at 8.40.01 AM.png)
+
 Requirements
 ------------
 
@@ -67,27 +73,27 @@ Step 2 - MongoDB and Flask Application
 Use MongoDB with Flask templating to create a new HTML page that displays all
 the information that was scraped from the URLs above
 
--   [ ] Convert Jupyter Notebook into a Python scraped called scrape_mars.py
+-   [x] Convert Jupyter Notebook into a Python scraped called scrape_mars.py
     with a function called scrape
 
-    -   [ ] Contains all scraping code
+    -   [x] Contains all scraping code
 
-    -   [ ] Return one Python dictionary containing all the scraped data
+    -   [x] Return one Python dictionary containing all the scraped data
 
--   [ ] Create a route called /scrape that
+-   [x] Create a route called /scrape that
 
-    -   [ ] Import the scrape_mars.py script and calls the scrape fucntion
+    -   [x] Import the scrape_mars.py script and calls the scrape fucntion
 
-    -   [ ] Store the return value in Mongo as a Python dictionary
+    -   [x] Store the return value in Mongo as a Python dictionary
 
--   [ ] Create a root route /
+-   [x] Create a root route /
 
-    -   [ ] Query the Mongo database
+    -   [x] Query the Mongo database
 
-    -   [ ] Pass the mars data into an HTML template to display the data
+    -   [x] Pass the mars data into an HTML template to display the data
 
--   [ ] Create a template HTML file called index.html
+-   [x] Create a template HTML file called index.html
 
-    -   [ ] Assign the mars data dictionary to the appropriate HTML element
+    -   [x] Assign the mars data dictionary to the appropriate HTML element
 
  
